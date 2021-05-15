@@ -1,5 +1,5 @@
 html {
-  font-family: "Noto Sans KR", helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-family: "Malgun Gothic", helvetica, "Apple SD Gothic Neo", sans-serif;
   line-height: 1.2;
   word-wrap: break-word;
 }
@@ -41,7 +41,7 @@ time, mark, audio, video {
   border: 0;
 
   /* font */
-  font-family: "Noto Sans KR", helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-family: "Malgun Gothic", helvetica, "Apple SD Gothic Neo", sans-serif;
   color: #000;
   letter-spacing: -0.5px;
 }
@@ -90,7 +90,7 @@ button {
 
 /* input field font style */
 input, textarea {
-  font-family: "Noto Sans KR", helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-family: "Malgun Gothic", helvetica, "Apple SD Gothic Neo", sans-serif;
 }
 
 /* element hidden skill */
