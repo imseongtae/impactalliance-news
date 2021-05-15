@@ -101,6 +101,7 @@ input, textarea {
   left: 0;
   top: -9999em;
 }
+
 .hidden-visually {
   position: absolute;
   overflow: hidden;
@@ -114,7 +115,8 @@ input, textarea {
 }
 
 /* float clear skill */
-.clearfix { *zoom: 1 }
+.clearfix { *zoom: 1; }
+
 .clearfix::after {
   content: '';
   display: block;
