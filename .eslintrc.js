@@ -27,5 +27,5 @@ module.exports = {
       },
     ],
   },
-  ignorePatterns: ['node_modules/'],
+  ignorePatterns: ['node_modules/', 'dist/'],
 };
