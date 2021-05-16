@@ -1,6 +1,7 @@
-var path = require('path');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var StyleLintPlugin = require('stylelint-webpack-plugin');
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const StyleLintPlugin = require('stylelint-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: 'none',
@@ -34,6 +35,9 @@ module.exports = {
       failOnError: false,
       quiet: false,
       emitErrors: true, // by default this is to true to check the CSS lint errors
+    }),
+    new CopyPlugin({
+      patterns: [{ from: 'src/assets', to: '' }],
     }),
   ],
 };
